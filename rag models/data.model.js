@@ -15,4 +15,4 @@ const Article_Schema=new Schema({
       strict:"throw"
 
 })
-export const Article_model=model("rag article ",Article_Schema)
+export const Article_model=model("article",Article_Schema,"article models")
